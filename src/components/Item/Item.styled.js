@@ -42,7 +42,8 @@ export const Button = styled.button`
   cursor: pointer;
   margin-left: auto;
   border: none;
-  background-color: transparent;
+  border-radius: 20%;
+  background-color: #ffefd5;
 `;
 export const Icon = styled(AiOutlineUserDelete)`
   height: 20px;
