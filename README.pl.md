@@ -1,4 +1,4 @@
-**Read in other languages: [rosyjski](README.md), [polski](README.pl.md).**
+<!-- **Read in other languages: [rosyjski](README.md), [polski](README.pl.md).**
 
 # React homework template
 
@@ -114,4 +114,4 @@ końcu łańcucha jest obowiązkowy.
    zainicjowany i przechodzi pracę lintera oraz zbudowanie przed deploymentem.
 3. Jeżeli wszystkie kroki zakończyły się sukcesem, zbudowana wersja produkcyjna
    plików projektu wysyłana jest do gałęzi `gh-pages`. W przeciwnym razie, w
-   logu wykonania skryptu zostanie wskazane z czym jest problem.
+   logu wykonania skryptu zostanie wskazane z czym jest problem. -->

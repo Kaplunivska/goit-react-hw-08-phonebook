@@ -1,4 +1,4 @@
-# React homework template
+<!-- # React homework template
 
 This project was created with
 [Create React App](https://github.com/facebook/create-react-app). To get
@@ -11,7 +11,7 @@ acquainted and configure additional features
 своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
 `«Create a new repository»`, как показано на изображении.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+![Creating repo from a template step 1](./assets/template-step-1.)
 
 На следующем шаге откроется страница создания нового репозитория. Заполни поле
 его имени, убедись что репозиторий публичный, после чего нажми кнопку
@@ -102,4 +102,4 @@ the line are required.
    initialized and linted and built before deployment.
 3. If all steps are successful, the built production version of the project
    files is sent to the `gh-pages` branch. Otherwise, the script execution log
-   will indicate what the problem is.
+   will indicate what the problem is. -->

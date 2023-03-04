@@ -7,9 +7,16 @@ export const Container = styled.div`
 `;
 export const Form = styled.form`
   background-color: ${({ theme }) => theme.colors.white};
-  padding: 40px 40px;
-  width: 500px;
   border-radius: 12px;
+  padding: 10px 20px 20px;
+  width: 400px;
+  @media screen and (max-width: 768px) {
+    max-width: 280px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 500px;
+    padding: 20px 40px 40px;
+  }
 `;
 export const Text = styled.p`
   color: ${({ theme }) => theme.colors.grey};
@@ -20,7 +27,7 @@ export const Text = styled.p`
 export const Input = styled.input`
   display: inline-block;
   border-radius: 8px;
-  width: 420px;
+  width: 360px;
   height: 50px;
   border: 1px solid ${({ theme }) => theme.colors.grey};
   padding: 4px 12px;
@@ -29,6 +36,13 @@ export const Input = styled.input`
     outline: transparent;
     border-color: ${({ theme }) => theme.colors.accent};
   }
+  @media screen and (max-width: 768px) {
+    width: 220px;
+    height: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 420px;
+  }
 `;
 export const Validation = styled.p`
   margin-bottom: 24px;
@@ -36,7 +50,7 @@ export const Validation = styled.p`
   text-align: start;
 `;
 export const Button = styled.button`
-  width: 420px;
+  width: 360px;
   height: 50px;
   border: none;
   border-radius: 8px;
@@ -51,5 +65,12 @@ export const Button = styled.button`
   }
   &:disabled {
     background-color: ${({ theme }) => theme.colors.grey};
+  }
+  @media screen and (max-width: 768px) {
+    width: 220px;
+    height: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 420px;
   }
 `;
